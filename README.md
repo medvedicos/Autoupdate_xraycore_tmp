@@ -51,7 +51,7 @@ HTTP (XRAY ✅ SING-BOX ✅)
 sing-box version : 1.8.23 recommended version ! 
 
 ```
-rm -f amirhossein.sh && wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
+rm -f amirhossein.sh && wget https://raw.githubusercontent.com/medvedicos/Autoupdate_xraycore_tmp/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
 ```
 
 Done !
