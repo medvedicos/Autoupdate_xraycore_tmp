@@ -22,7 +22,7 @@ cd /root/
 
 rm owo.sh
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/owo.sh
+wget https://raw.githubusercontent.com/medvedicos/Autoupdate_xraycore_tmp/main/owo.sh
 
 chmod 777 owo.sh
 
@@ -30,7 +30,7 @@ cd /etc/init.d/
 
 rm amir
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amir
+wget https://raw.githubusercontent.com/medvedicos/Autoupdate_xraycore_tmp/main/amir
 
 chmod +x /etc/init.d/amir
 
