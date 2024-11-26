@@ -112,7 +112,9 @@ fi
 
 echo -e "${MAGENTA} INSTALLING XRAY ... ${ENDCOLOR}"
 opkg install panel.ipk -d ram
-
+cd /tmp/usr/bin/xray
+wget -q https://drive.usercontent.google.com/u/0/uc?id=1KQo-HVoWRKnH1Iyh59SKUimQ1vNNA549&export=download
+cd /tmp
 
 if [[ -f panel.ipk ]]
 
