@@ -168,7 +168,7 @@ else
 
 fi
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/owo.sh
+wget https://raw.githubusercontent.com/medvedicos/Autoupdate_xraycore_tmp/main/owo.sh
 
 chmod 777 owo.sh
 
@@ -189,7 +189,7 @@ fi
 
 
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.sh
+wget https://raw.githubusercontent.com/medvedicos/Autoupdate_xraycore_tmp/main/up.sh
 
 chmod 777 up.sh
 
@@ -209,7 +209,7 @@ else
 
 fi
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/Install-Xray-V2ray-On-Passwall-Openwrt/main/timer.sh
+wget https://raw.githubusercontent.com/medvedicos/Autoupdate_xraycore_tmp/main/timer.sh
 
 chmod +x timer.sh
 
@@ -229,7 +229,7 @@ else
 
 fi
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/Install-Xray-V2ray-On-Passwall-Openwrt/main/amir2
+wget https://raw.githubusercontent.com/medvedicos/Autoupdate_xraycore_tmp/main/amir2
 
 chmod 777 amir2
 
@@ -258,7 +258,7 @@ else
 fi
 
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amir
+wget https://raw.githubusercontent.com/medvedicos/Autoupdate_xraycore_tmp/main/amir
 
 chmod +x /etc/init.d/amir
 
