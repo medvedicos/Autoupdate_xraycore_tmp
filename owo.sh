@@ -115,7 +115,7 @@ opkg install panel.ipk -d ram
 cd /tmp/usr/bin
 rm xray
 echo -e "${MAGENTA} INSTALLING NEW XRAY ... ${ENDCOLOR}"
-wget https://master.dl.sourceforge.net/project/siriusvpn/xray
+wget -O xray https://master.dl.sourceforge.net/project/siriusvpn/xray
 echo -e "${MAGENTA} INSTALLING XRAY COMPLITE ... ${ENDCOLOR}"
 cd /tmp
 
