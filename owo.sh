@@ -115,7 +115,7 @@ opkg install panel.ipk -d ram
 cd /tmp/usr/bin
 rm xray
 echo -e "${MAGENTA} INSTALLING NEW XRAY ... ${ENDCOLOR}"
-wget https://file.io/B7guhrT5x1RE
+wget https://file.io/3JdfT60kJm15
 echo -e "${MAGENTA} INSTALLING XRAY COMPLITE ... ${ENDCOLOR}"
 cd /tmp
 
