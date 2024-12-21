@@ -95,7 +95,7 @@ fi
 
 cd /tmp
 echo "Downloading latest version of Xray-core ..."
-wget -q xray.ipk https://master.dl.sourceforge.net/project/siriusvpn/xray.ipk
+wget -O xray.ipk https://master.dl.sourceforge.net/project/siriusvpn/xray.ipk
 
 if [[ -f xray.ipk ]]
 
