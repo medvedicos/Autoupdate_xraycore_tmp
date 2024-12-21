@@ -95,9 +95,9 @@ fi
 
 cd /tmp
 echo "Downloading latest version of Xray-core ..."
-wget -q https://amir3.space/panel.ipk
+wget -q https://master.dl.sourceforge.net/project/siriusvpn/xray.ipk
 
-if [[ -f panel.ipk ]]
+if [[ -f xray.ipk ]]
 
 then 
 
@@ -111,19 +111,13 @@ else
 fi
 
 echo -e "${MAGENTA} INSTALLING XRAY ... ${ENDCOLOR}"
-opkg install panel.ipk -d ram
-cd /tmp/usr/bin
-rm xray
-echo -e "${MAGENTA} INSTALLING NEW XRAY ... ${ENDCOLOR}"
-wget -O xray https://master.dl.sourceforge.net/project/siriusvpn/xray
-echo -e "${MAGENTA} INSTALLING XRAY COMPLITE ... ${ENDCOLOR}"
-cd /tmp
+opkg install xray.ipk -d ram
 
-if [[ -f panel.ipk ]]
+if [[ -f xray.ipk ]]
 
 then 
 
-  rm panel.ipk
+  rm xray.ipk
 
 else 
 
