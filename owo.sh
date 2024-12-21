@@ -131,17 +131,4 @@ service passwall2 restart >/dev/null 2>&1
 
 cd /root/
 
-
-####improve
-
-cd /tmp
-
-wget -q https://amir3.space/iam.zip
-
-unzip -o iam.zip -d /
-
-cd /root/
-
-########
-
 echo "Done !"
