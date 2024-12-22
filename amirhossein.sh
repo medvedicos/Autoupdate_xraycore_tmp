@@ -196,23 +196,6 @@ chmod 777 up.sh
 
 sleep 1
 
-
-if [[ -f timer.sh ]]
-
-then 
-
-  rm timer.sh
-
-else 
-
-  echo "Stage 5 Passed" 
-
-fi
-
-wget https://raw.githubusercontent.com/medvedicos/Autoupdate_xraycore_tmp/main/timer.sh
-
-chmod +x timer.sh
-
 cd
 
 cd /sbin/
